@@ -42,3 +42,13 @@ ro.surface_flinger.use_content_detection_for_refresh_rate=false
 
 # USB
 vendor.usb.product_string=Xiaomi 12T
+
+# MistOS
+ro.mist.display=1220 x 2712, 120 hz
+ro.mist.battery=5000mah
+ro.mist.soc=Mediatek Dimensity 8100-Ultra
+ro.mist.camera=108MP + 8MP + 2MP
+ro.mist.front=20MP
+ro.mist.platform=MT6895
+ro.mist.screen=6.67’ Amoled
+ro.mist.device.name=Xiaomi 12T
