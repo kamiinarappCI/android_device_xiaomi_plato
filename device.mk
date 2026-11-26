@@ -70,3 +70,17 @@ $(call inherit-product, device/xiaomi/mt6895-common/mt6895.mk)
 
 # Inherit the proprietary files
 $(call inherit-product, vendor/xiaomi/plato/plato-vendor.mk)
+
+# Set maintainer
+MISTOS_MAINTAINER := kamiinarappCI
+
+# Enable GMS with mini package
+WITH_GMS := true
+TARGET_USES_MINI_GAPPS := true
+
+# Enable UI enhancements
+TARGET_ENABLE_BLUR := true
+
+# Enable features
+TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_DEFAULT_PIXEL_LAUNCHER := false
